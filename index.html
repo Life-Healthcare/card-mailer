@@ -108,17 +108,50 @@
       font-family: Arial;
     }
 
-    img {
-      object-fit: cover;
+    .bg img {
+      object-fit: cover !important;
+    }
+
+    .logo,
+    .logo * {
+      max-width: 177px !important;
+      max-height: 61px !important;
+    }
+
+    .top-right,
+    .top-right * {
+      max-width: 139px !important;
+      max-height: 119px !important;
+    }
+
+    @media only screen and (max-width: 480px) {
+      .header {
+        display: flex !important;
+        min-width: 100vw !important;
+      }
+
+      .logo,
+      .logo * {
+        margin-bottom: 5px !important;
+      }
+
+      .top-right,
+      .top-right * {
+        max-width: 69px !important;
+        max-height: 59px !important;
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
     }
 
   </style>
 </head>
 
-<body style="word-spacing:normal;">
-  <div style="">
-    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div style="margin:0px auto;max-width:600px;">
+<body style="word-spacing:normal;background-color:white;">
+  <div style="background-color:white;">
+    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="header-outlook" role="presentation" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div class="header" style="margin:0px auto;max-width:600px;">
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
         <tbody>
           <tr>
@@ -139,12 +172,12 @@
                         <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                           <tbody>
                             <tr>
-                              <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
+                              <td align="center" class="logo" style="font-size:0px;padding:0;word-break:break-word;">
                                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
                                   <tbody>
                                     <tr>
-                                      <td style="width:177px;">
-                                        <img height="61" src="https://raw.githubusercontent.com/Life-Healthcare/card-mailer/main/assets/logo.png" style="border:0;display:block;outline:none;text-decoration:none;height:61px;width:100%;font-size:13px;" width="177" />
+                                      <td style="width:200px;">
+                                        <img height="auto" src="https://raw.githubusercontent.com/Life-Healthcare/card-mailer/main/assets/logo.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="200" />
                                       </td>
                                     </tr>
                                   </tbody>
@@ -163,12 +196,12 @@
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tbody>
                     <tr>
-                      <td align="right" style="font-size:0px;padding:0;word-break:break-word;">
+                      <td align="right" class="top-right" style="font-size:0px;padding:0;word-break:break-word;">
                         <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
                           <tbody>
                             <tr>
-                              <td style="width:139px;">
-                                <img height="119" src="https://raw.githubusercontent.com/Life-Healthcare/card-mailer/main/assets/topright.png" style="border:0;display:block;outline:none;text-decoration:none;height:119px;width:100%;font-size:13px;" width="139" />
+                              <td style="width:200px;">
+                                <img height="auto" src="https://raw.githubusercontent.com/Life-Healthcare/card-mailer/main/assets/topright.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="200" />
                               </td>
                             </tr>
                           </tbody>
@@ -229,7 +262,7 @@
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tbody>
                     <tr>
-                      <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
+                      <td align="center" class="bg" style="font-size:0px;padding:0px;word-break:break-word;">
                         <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
                           <tbody>
                             <tr>

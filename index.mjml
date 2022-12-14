@@ -4,30 +4,53 @@
         body {
             font-family: Arial;
         }
-          img {
-    object-fit: cover;
-  }
+        .bg img {
+            object-fit: cover !important;
+        }
+        .logo, .logo * {
+            max-width: 177px !important;
+            max-height: 61px !important;
+        }
+        .top-right, .top-right * {
+            max-width: 139px !important;
+            max-height: 119px !important;
+        }
+        @media only screen and (max-width: 480px) {
+            .header {
+                display: flex !important;
+                min-width: 100vw !important;
+            }
+            .logo, .logo * {
+                margin-bottom: 5px !important;
+            }
+
+            .top-right, .top-right * {
+                max-width: 69px !important;
+                max-height: 59px !important;
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
+        }
         </mj-style>
     </mj-head>
-    <mj-body width="600px">
-        <mj-section padding="0">
+    <mj-body width="600px" background-color="white">
+        <mj-section padding="0" css-class="header">
             <mj-column>
 
             </mj-column>
             <mj-column padding-top="35px">
                 <mj-image 
+                css-class="logo"
                 padding="0"
                 align="center"
-                width="177px"
-                height="61px"
                 src="https://raw.githubusercontent.com/Life-Healthcare/card-mailer/main/assets/logo.png">
             </mj-column>
             <mj-column>
                 <mj-image 
+                    css-class="top-right"
                     padding="0"
                     align="right"
-                    width="139px"
-                    height="119px"
                     src="https://raw.githubusercontent.com/Life-Healthcare/card-mailer/main/assets/topright.png">
             </mj-column>
         </mj-section>
@@ -47,6 +70,7 @@
         <mj-section>
             <mj-column>
                 <mj-image
+                    css-class="bg"
                     padding="0px"
                     width="600px"
                     height="490px"
