@@ -1,0 +1,23 @@
+{
+  "name": "card-mailer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "mjml --watch index.mjml -o index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Life-Healthcare/card-mailer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Life-Healthcare/card-mailer/issues"
+  },
+  "homepage": "https://github.com/Life-Healthcare/card-mailer#readme",
+  "dependencies": {
+    "mjml": "^4.13.0"
+  }
+}

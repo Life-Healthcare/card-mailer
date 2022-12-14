@@ -1,0 +1,103 @@
+<mjml>
+    <mj-head>
+        <mj-style>
+        body {
+            font-family: Arial;
+        }
+          img {
+    object-fit: cover;
+  }
+        </mj-style>
+    </mj-head>
+    <mj-body width="600px">
+        <mj-section padding="0">
+            <mj-column>
+
+            </mj-column>
+            <mj-column padding-top="35px">
+                <mj-image 
+                padding="0"
+                align="center"
+                width="177px"
+                height="61px"
+                src="./assets/logo.png">
+            </mj-column>
+            <mj-column>
+                <mj-image 
+                    padding="0"
+                    align="right"
+                    width="139px"
+                    height="119px"
+                    src="./assets/topright.png">
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0">
+            <mj-column>
+                <mj-text color="#9F1A9F" align="center" padding="3px" font-size="10px">
+                    For informational purposes only
+                </mj-text>
+                <mj-text color="#9F1A9F" align="center" padding="3px" font-size="10px">
+               - Strictly do not forward or circulate outside of the company 
+                </mj-text>
+                <mj-text color="#9F1A9F" align="center" padding="3px" font-size="10px">
+                Astellas employees only - Not for Salesforce use
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column>
+                <mj-image
+                    padding="0px"
+                    width="600px"
+                    height="490px"
+                    src="./assets/bg.png">
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0" padding-bottom="20px">
+            <mj-column>
+                <mj-text align="center" font-size="30px" color="#007932" padding="0">
+                    Wishing you all
+                </mj-text>
+                <mj-text align="center" font-size="30px" color="#CB0B00" padding="0">
+                    Happy Holidays!
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0">
+            <mj-column padding="0">
+                <mj-text color="#707070" font-size="16px" align="center">
+                On behalf of all of us in the global EVRENZO team, we would like to wish you a very Happy Holiday!
+                </mj-text>
+                <mj-text color="#707070" font-size="16px" align="center">
+               After a busy and successful year, we would like to thank you for all of your hard work and hope that you enjoy a well-deserved festive break.
+Sending our best wishes to you and your families,
+                </mj-text>
+                <mj-text color="#007A33" font-size="16px" align="center">
+               The EVRENZO team
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0">
+            <mj-column>
+                <mj-image 
+                    padding="0px"
+                    width="600px"
+                    height="115px"
+                    src="./assets/trees.png">
+            </mj-column>
+        </mj-section>
+        <mj-section padding="20px" background-color="#007A33">
+            <mj-column>
+                <mj-text color="#FFFFFF" font-size="10px" padding="2px" align="center">
+                For informational purposes only
+                </mj-text>
+                <mj-text color="#FFFFFF" font-size="10px" padding="2px" align="center">
+- Strictly do not forward or circulate outside of the company
+                </mj-text>
+                <mj-text color="#FFFFFF" font-size="10px" padding="2px" align="center">
+Astellas employees only - Not for Salesforce use
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
