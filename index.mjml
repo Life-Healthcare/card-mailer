@@ -20,7 +20,7 @@
                 align="center"
                 width="177px"
                 height="61px"
-                src="./assets/logo.png">
+                src="https://raw.githubusercontent.com/Life-Healthcare/card-mailer/main/assets/logo.png">
             </mj-column>
             <mj-column>
                 <mj-image 
@@ -28,7 +28,7 @@
                     align="right"
                     width="139px"
                     height="119px"
-                    src="./assets/topright.png">
+                    src="https://raw.githubusercontent.com/Life-Healthcare/card-mailer/main/assets/topright.png">
             </mj-column>
         </mj-section>
         <mj-section padding="0">
@@ -50,7 +50,7 @@
                     padding="0px"
                     width="600px"
                     height="490px"
-                    src="./assets/bg.png">
+                    src="https://raw.githubusercontent.com/Life-Healthcare/card-mailer/main/assets/bg.png">
             </mj-column>
         </mj-section>
         <mj-section padding="0" padding-bottom="20px">
@@ -83,7 +83,7 @@ Sending our best wishes to you and your families,
                     padding="0px"
                     width="600px"
                     height="115px"
-                    src="./assets/trees.png">
+                    src="https://raw.githubusercontent.com/Life-Healthcare/card-mailer/main/assets/trees.png">
             </mj-column>
         </mj-section>
         <mj-section padding="20px" background-color="#007A33">
