@@ -2,7 +2,7 @@
     <mj-head>
         <mj-style>
         body {
-            font-family: Arial;
+            font-family: Arial !important;
         }
         .bg img {
             object-fit: cover !important;
